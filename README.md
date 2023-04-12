@@ -1,5 +1,7 @@
 # email-bot
 
+Simple AI email bot with OpenAI and Simplegmail
+
 0. git clone
 1. setup gmail API 
 2. create desktop OAuth2 credentials
