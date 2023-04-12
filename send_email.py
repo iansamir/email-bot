@@ -20,12 +20,12 @@ gmail = Gmail() # will open a browser window to ask you to log in and authentica
 # """
 
 # sample_email = sample_email.replace("\n", "<br>")
-
+sender_email = ""
 def send_email(recipient, subject, message):
     message = message.replace("\n", "<br>")
     params = {
         "to": recipient,
-        "sender": "falcnpawnch@gmail.com",
+        "sender": sender_email,
         "subject": subject,
         "msg_html": message,
         "signature": True  # use my account signature
